@@ -16,3 +16,7 @@ phases/**/phase*-output.json
 phases/**/step*-output.json
 
 .env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
