@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+if [ ! -f package.json ]; then
+  echo "pre-commit: package.json not found; cannot run npm checks." >&2
+  exit 1
+fi
+
+echo "pre-commit: running npm run lint"
+npm run lint
+
+echo "pre-commit: running npm run test"
+npm run test
+
+echo "pre-commit: running npm run build"
+npm run build

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review"
+  short_description: "Review repo changes against docs and project rules."
+  default_prompt: "Use $review to review the current repository changes against AGENTS.md and the docs."
+policy:
+  allow_implicit_invocation: false

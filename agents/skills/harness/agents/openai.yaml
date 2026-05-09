@@ -1,0 +1,6 @@
+interface:
+  display_name: "Harness Workflow"
+  short_description: "Plan and execute the repository Harness phase workflow."
+  default_prompt: "Use $harness to plan or execute a Harness phase for this repository."
+policy:
+  allow_implicit_invocation: false

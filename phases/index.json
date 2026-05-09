@@ -1,0 +1,10 @@
+{
+  "project": "YouTube Channel Insight",
+  "phases": [
+    {
+      "dir": "real-channel-analysis",
+      "name": "Real Single-Channel Analysis",
+      "status": "completed"
+    }
+  ]
+}

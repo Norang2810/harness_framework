@@ -1,0 +1,36 @@
+{
+  "project": "YouTube Channel Insight",
+  "phase": "real-channel-analysis",
+  "steps": [
+    {
+      "step": 0,
+      "name": "docs-and-contract",
+      "status": "completed",
+      "summary": "Documented real provider integration scope, env names, and API contract."
+    },
+    {
+      "step": 1,
+      "name": "youtube-provider",
+      "status": "completed",
+      "summary": "Added Laravel YouTube Data API provider using backend-only YOUTUBE_DATA_API_KEY."
+    },
+    {
+      "step": 2,
+      "name": "openai-analysis",
+      "status": "completed",
+      "summary": "Added Laravel OpenAI Responses provider using backend-only OPENAI_API_KEY."
+    },
+    {
+      "step": 3,
+      "name": "analysis-api",
+      "status": "completed",
+      "summary": "Connected URL parsing, YouTube metadata, and OpenAI analysis in POST /api/analysis."
+    },
+    {
+      "step": 4,
+      "name": "vue-ui-polish",
+      "status": "completed",
+      "summary": "Updated Vue UI to render real channel metadata, Korean analysis, and provider errors."
+    }
+  ]
+}
